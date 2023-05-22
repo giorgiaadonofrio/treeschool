@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+body{
+    border: 2px solid red;
+    /* padding: 20px; */
+    background-color: #355673;   
+}
+
+.navbar{
+    /* padding = margine interno, il padding dovrebbe dare meno problemi
+    margin = esterno */
+    border: 2px solid red;
+    background-color: #b9b9b9;
+    border-radius: 20%;
+    justify-content: right;
+  
+}
+
+
+.container {
+    border: 2px solid red;
+    display: flex;
+    gap: 30x;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #testoImg{
+    padding-right: 5%;
+    padding-left: 5%;
+} */
+
+.ulstyle {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2793F2;
+    padding: 20px; /* Aggiungi un margine esterno alla navbar */
+    margin: 0; /* Rimuovi il margine predefinito */
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    transition: all 0.35s;
+    color:inherit;
+
+}
+
+a:hover{
+    color: #355673;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+/* come si chiama una classe? */
+.immagine{
+    width: 35%;
+    max-width: 200px;
+    margin-left: 500px;
+    /*height: 400px;*/
+
+}
+
+.main_content {
+    border: 2px solid red;
+    padding: 30px;
+}
+
+.footer_ {
+    border: 2px solid red;
+    padding: 20px;
+    background-color: blueviolet;   
+    border-radius: 24px;
+}
+
+
+/* 400px è una larghezza fissa che non cambierà mai
+* se uso la percentuale */
